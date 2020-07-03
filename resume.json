@@ -1,0 +1,10 @@
+var resume = { name: "Srikar Mudili", age: "14", gpa: "4.07", hobbies: ["Piano", "Clarinet", "Video games"], sports: ["Soccer", "Tennis", "Basketball"], courses: ["Science", "Algebra 2 Honors", "American History", "English", "Spanish", "Debate", "Public Speaking", "Northwestern Android App Design", "Northwestern Stock Market Experiment", "Northwestern Raspberry Pi", "2020 Computer Science Summer Course"], awards: ["NHD $600+ Special Award", "3 Piano Gold Cups", "Soccer Trophy", "Cho's Martial Arts Trophies", "Chess Medals", "Forensics Medals/Ribbons", "Piano Medals and Ribbons"] }
+
+resume.name;
+resume.age;
+resume.gpa;
+resume.hobbies;
+resume.sports;
+resume.courses;
+resume.awards;
+
