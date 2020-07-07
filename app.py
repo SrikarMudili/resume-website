@@ -6,7 +6,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+f = open("resume.json", "r")
 taha = f.read()
+
 # a route where we will display a welcome message via an HTML template
 @app.route("/resume")
 def resume():
