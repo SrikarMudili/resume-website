@@ -31,30 +31,28 @@ class App extends React.Component {
         {
           this.state.resume == null ? (<h4> Resume is loading </h4>) : (<div>
 
-            <h1> NAME: </h1>
-            <h1> {this.state.resume.name} </h1>
-            <h1> AGE: </h1>
-            <h2> {this.state.resume.age} </h2>
-            <h1> GPA OUT OF 4.3: </h1>
-            <h2> {this.state.resume.gpa} </h2>
+            
+            <h1> Hello, my name is {this.state.resume.name}. </h1>
+            <h3> I am {this.state.resume.age} years old! </h3>
+            <h3> I got a {this.state.resume.gpa} out of 4.3 GPA!</h3>
+            <h2> This is my Resume ꜜꜜꜜꜜꜜꜜ</h2>
 
-
-            <h2> HOBBIES: </h2>
+            <h3> HOBBIES: </h3>
             <ul className="list-group">
               {this.state.resume.hobbies.map(hobby => <li className='list-group-item'>{hobby}</li>)}
             </ul>
 
-            <h2> SPORTS: </h2>
+            <h3> SPORTS: </h3>
             <ul className="list-group">
               {this.state.resume.sports.map(sport => <li className='list-group-item'>{sport}</li>)}
             </ul>
 
-            <h2> COURSES I HAVE TAKEN: </h2>
+            <h3> COURSES I HAVE TAKEN: </h3>
             <ul className="list-group">
               {this.state.resume.courses.map(course => <li className='list-group-item'>{course}</li>)}
             </ul>
 
-            <h2> AWARDS: </h2>
+            <h3> AWARDS: </h3>
             <ul className="list-group">
               {this.state.resume.awards.map(award => <li className='list-group-item'>{award}</li>)}
             </ul>
