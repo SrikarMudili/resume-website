@@ -35,7 +35,7 @@ class App extends React.Component {
             <h1> {this.state.resume.name} </h1>
             <h1> MY AGE: </h1>
             <h2> {this.state.resume.age} </h2>
-            <h1> MY GPA OUT OF MAX 4.3: </h1>
+            <h1> MY GPA OUT OF 4.3: </h1>
             <h2> {this.state.resume.gpa} </h2>
 
 
