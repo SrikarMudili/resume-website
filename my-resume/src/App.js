@@ -32,17 +32,11 @@ class App extends React.Component {
           this.state.resume == null ? (<h4> Resume is loading </h4>) : (<div>
 
             <h1> NAME: </h1>
-            <ul className="list-group">
-              {this.state.resume.name.map(name => <li className='list-group-item'>{name}</li>)}
-            </ul>
+            <h1> {this.state.resume.name} </h1>
             <h1> AGE: </h1>
-            <ul className="list-group">
-              {this.state.resume.age.map(age => <li className='list-group-item'>{age}</li>)}
-            </ul>
+            <h2> {this.state.resume.age} </h2>
             <h1> GPA OUT OF 4.3: </h1>
-            <ul className="list-group">
-              {this.state.resume.gpa.map(gpa => <li className='list-group-item'>{gpa}</li>)}
-            </ul>
+            <h2> {this.state.resume.gpa} </h2>
 
 
             <h2> HOBBIES: </h2>
