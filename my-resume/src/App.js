@@ -34,7 +34,7 @@ class App extends React.Component {
             
             <h1 className="bg-danger"> Hello, my name is {this.state.resume.name}. </h1>
             <h3 className="bg-success"> I am {this.state.resume.age} years old! </h3>
-            <h3 className="bg-info"> I got a {this.state.resume.gpa} out of 4.3 GPA!</h3>
+            <h3 className="bg-info"> I have a {this.state.resume.gpa} GPA!</h3>
             <h2 className="bg-warning"> This is my Resume ꜜꜜꜜꜜꜜꜜ</h2>
 
             <h3 className="bg-danger"> HOBBIES: </h3>
@@ -58,7 +58,6 @@ class App extends React.Component {
             </ul>
 
             <img src="nhdpicture.jpg" className="profile-image" alt="Picture of me." />
-            <img src="portrait.jpg" className="portrait-image" alt="Portrait I drew of myself with my left hand (non-dominant hand)." />
           </div>)
         }
       </div>
