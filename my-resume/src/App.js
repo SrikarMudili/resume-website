@@ -57,8 +57,8 @@ class App extends React.Component {
               {this.state.resume.awards.map(award => <li className='list-group-item'>{award}</li>)}
             </ul>
 
-            <img src="nhdpicture.jpg" className="profile-image" alt="Picture of me." />
-            <img src="portrait.jpg" className="portrait-image" alt="Portrait I drew of myself with my left hand (non-dominant hand)." />
+            # <img src="nhdpicture.jpg" className="profile-image" alt="Picture of me." />
+            # <img src="portrait.jpg" className="portrait-image" alt="Portrait I drew of myself with my left hand (non-dominant hand)." />
           </div>)
         }
       </div>
