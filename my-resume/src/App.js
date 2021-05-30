@@ -56,8 +56,6 @@ class App extends React.Component {
             <ul className="bg-warning">
               {this.state.resume.awards.map(award => <li className='list-group-item'>{award}</li>)}
             </ul>
-
-            <img src="nhdpicture.jpg" className="profile-image" alt="Picture of me." />
           </div>)
         }
       </div>
