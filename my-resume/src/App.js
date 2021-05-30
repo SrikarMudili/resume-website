@@ -22,7 +22,7 @@ class App extends React.Component {
 
 
     getResume().then(result => {
-      this.setState({ resume: JSON.parse(result.data) });
+      this.setState({ resume: result.data });
     });
 
 
