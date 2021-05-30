@@ -9,14 +9,17 @@ CORS(app)
 f = open("resume.json", "r")
 taha = f.read()
 
+
 @app.route("/")
 def index():
     return send_from_directory('static', 'index.html')
+
 
 # a route where we will display a welcome message via an HTML template
 @app.route("/resume")
 def resume():
     return taha
+
 
 # run the application
 if __name__ == "__main__":
