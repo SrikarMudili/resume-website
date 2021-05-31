@@ -2,11 +2,9 @@ import React from 'react';
 import axios from 'axios';
 import './App.css';
 
-
 function getResume() {
   return axios.get("https://srikar-resume.herokuapp.com/resume");
 }
-
 
 class App extends React.Component {
 
@@ -15,22 +13,16 @@ class App extends React.Component {
     this.state = { resume: null };
   }
 
-
   render() {
-
-
-
 
     getResume().then(result => {
       this.setState({ resume: result.data });
     });
 
-
     return (
       <div className='container'>
         {
           this.state.resume == null ? (<h4> Resume is loading </h4>) : (<div>
-
 
             <h1 className="bg-danger"> Hello, my name is {this.state.resume.name}. </h1>
             <h3 className="bg-success"> I am {this.state.resume.age} years old! </h3>
